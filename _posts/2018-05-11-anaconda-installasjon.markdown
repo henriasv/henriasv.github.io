@@ -40,9 +40,12 @@ Når man åpner spyder for første gang kan det hende det dukker opp en beskjed 
 ## Sjekk at anaconda-installasjonen fungerer som den skal 
 I det følgende vil `>>` brukes som *python-prompt*, altså at man gir en instruksjon til python-interpreteren på maskinen. Dette svarer til det stedet i anaconda der man kan skrive inn kommandoer direkte (se bilde). 
 
-Den første sjekken er `>> print("Hello World")`
+Den første sjekken er `>> print("Hello, World!")` (trykk enter for å kjøre kommandoen)
 
 {% include figure.html file="/assets/img/spyder-window.png" %}
+
+Dersom dette har gått bra printes `Hello, World!" i terminalen. 
+
 
 ### Er anaconda installert med nødvendige pakker?
 Kopier innholdet i kodesnutten under, og legg det inn i et nytt script i anaconda. Kjør deretter scriptet. 

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-05-12T17:14:10+02:00</updated><id>http://localhost:4000/</id><title type="html">Guider</title><entry><title type="html">Installasjon av anaconda for MacOS</title><link href="http://localhost:4000/anaconda/python/2018/05/11/anaconda-installasjon.html" rel="alternate" type="text/html" title="Installasjon av anaconda for MacOS" /><published>2018-05-11T10:25:43+02:00</published><updated>2018-05-11T10:25:43+02:00</updated><id>http://localhost:4000/anaconda/python/2018/05/11/anaconda-installasjon</id><content type="html" xml:base="http://localhost:4000/anaconda/python/2018/05/11/anaconda-installasjon.html">&lt;h2 id=&quot;last-ned-anaconda-distribusjonen-fra&quot;&gt;Last ned anaconda distribusjonen fra&lt;/h2&gt;
+&lt;p&gt;Last ned anaconda fra &lt;a href=&quot;https://www.anaconda.com/&quot;&gt;Anaconda&lt;/a&gt; sitt nettsted. (&lt;img src=&quot;http://localhost:4000/assets/img/download_button.png&quot; alt=&quot;Download&quot; /&gt;-knapp øverst i høyre hjørne)
+Vanligvis vil nettstedet se hvilket operativsystem du har. Dersom den ikke gjør det velger du manuelt mellom MacOS, Windows eller Linux.&lt;/p&gt;
+
+&lt;div class=&quot;card mx-auto &quot;&gt;
+    &lt;img class=&quot;card-img-top&quot; src=&quot;/assets/img/download_site_small.jpg&quot; alt=&quot;Some figure&quot; /&gt;
+    &lt;div class=&quot;card-body&quot;&gt;&lt;p class=&quot;card-text text-center&quot;&gt; &lt;b&gt;Figur:&lt;/b&gt; &lt;i&gt;Nedlastingssiden til Anaconda&lt;/i&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Velg Python 3.6-versjonen. Før nedlasting kan det hende du blir bedt om å registrere deg, da er det bare å klikke på 
+&lt;button type=&quot;button&quot; class=&quot;btn btn-primary active&quot;&gt;No Thanks&lt;/button&gt;.&lt;/p&gt;
+
+&lt;div id=&quot;myCarousel&quot; class=&quot;carousel slide&quot; data-ride=&quot;carousel&quot;&gt;
+    &lt;ol class=&quot;carousel-indicators&quot;&gt;
+            
+            
+            
+                &lt;li data-target=&quot;#myCarousel&quot; data-slide-to=&quot;0&quot; class=&quot;active &quot;&gt;
+                &lt;/li&gt;  
+            
+                &lt;li data-target=&quot;#myCarousel&quot; data-slide-to=&quot;1&quot; class=&quot;&quot;&gt;
+                &lt;/li&gt;  
+            
+                &lt;li data-target=&quot;#myCarousel&quot; data-slide-to=&quot;2&quot; class=&quot;&quot;&gt;
+                &lt;/li&gt;  
+            
+                &lt;li data-target=&quot;#myCarousel&quot; data-slide-to=&quot;3&quot; class=&quot;&quot;&gt;
+                &lt;/li&gt;  
+            
+    &lt;/ol&gt;
+    &lt;div class=&quot;carousel-inner&quot;&gt;
+            
+            
+            
+            &lt;div class=&quot;carousel-item  active  &quot;&gt;
+                &lt;img class=&quot;d-block w-100&quot; src=&quot;
+/assets/img/installer1.png&quot; /&gt;
+            &lt;/div&gt;  
+            
+            &lt;div class=&quot;carousel-item &quot;&gt;
+                &lt;img class=&quot;d-block w-100&quot; src=&quot; 
+/assets/img/installer2.png&quot; /&gt;
+            &lt;/div&gt;  
+            
+            &lt;div class=&quot;carousel-item &quot;&gt;
+                &lt;img class=&quot;d-block w-100&quot; src=&quot;
+/assets/img/installer3.png&quot; /&gt;
+            &lt;/div&gt;  
+            
+            &lt;div class=&quot;carousel-item &quot;&gt;
+                &lt;img class=&quot;d-block w-100&quot; src=&quot;
+/assets/img/installer4.png&quot; /&gt;
+            &lt;/div&gt;  
+            
+    &lt;/div&gt;
+    &lt;a class=&quot;carousel-control-prev&quot; href=&quot;#myCarousel&quot; role=&quot;button&quot; data-slide=&quot;prev&quot;&gt;
+            &lt;span class=&quot;carousel-control-prev-icon&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+            &lt;span class=&quot;sr-only&quot;&gt;Previous&lt;/span&gt;
+          &lt;/a&gt;
+          &lt;a class=&quot;carousel-control-next&quot; href=&quot;#myCarousel&quot; role=&quot;button&quot; data-slide=&quot;next&quot;&gt;
+            &lt;span class=&quot;carousel-control-next-icon&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+            &lt;span class=&quot;sr-only&quot;&gt;Next&lt;/span&gt;
+    &lt;/a&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;installer-anaconda&quot;&gt;Installer anaconda&lt;/h2&gt;
+&lt;p&gt;Knapper å trykke riktig på underveis. Dette er en vanlig installer, men den trenger noe tilgang til datamaskinen. Dersom installeren ber om administratorrettigheter: ta kontakt med lokal IT-support, som vanlig ved installasjon av programmer. Dersom du har nødvendige tilganger, skal du se følgende bilder underveis i prosessen:&lt;/p&gt;
+
+&lt;h2 id=&quot;åpne-anaconda&quot;&gt;Åpne anaconda&lt;/h2&gt;
+&lt;p&gt;Når Anaconda en installert skal den finnes i Applications-mappen som &lt;code class=&quot;highlighter-rouge&quot;&gt;Anaconda-Navigator&lt;/code&gt;. Åpne &lt;code class=&quot;highlighter-rouge&quot;&gt;Anaconda-Navigator&lt;/code&gt; og velg &lt;code class=&quot;highlighter-rouge&quot;&gt;spyder&lt;/code&gt; fra menyen. Det er flere av alternativene som kan være interessante å vurdere å bruke i undervisningen, men i kurset vil vi bruke &lt;code class=&quot;highlighter-rouge&quot;&gt;spyder&lt;/code&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;card mx-auto &quot;&gt;
+    &lt;img class=&quot;card-img-top&quot; src=&quot;/assets/img/anaconda-navigator.png&quot; alt=&quot;Some figure&quot; /&gt;
+    &lt;div class=&quot;card-body&quot;&gt;&lt;p class=&quot;card-text text-center&quot;&gt; &lt;b&gt;Figur:&lt;/b&gt; &lt;i&gt;Her velger man hvilken måte man vil bruke Anaconda.&lt;/i&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Når man åpner spyder for første gang kan det hende det dukker opp en beskjed om at spyder ikke er oppdatert. Denne kan ignoreres foreløpig.&lt;/p&gt;
+
+&lt;div class=&quot;card mx-auto w-75&quot;&gt;
+    &lt;img class=&quot;card-img-top&quot; src=&quot;/assets/img/incoming_connections.png&quot; alt=&quot;Some figure&quot; /&gt;
+    &lt;div class=&quot;card-body&quot;&gt;&lt;p class=&quot;card-text text-center&quot;&gt; &lt;b&gt;Figur:&lt;/b&gt; &lt;i&gt;Python vil ha kontakt med internett&lt;/i&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card mx-auto w-50&quot;&gt;
+    &lt;img class=&quot;card-img-top&quot; src=&quot;/assets/img/update_spyder.png&quot; alt=&quot;Some figure&quot; /&gt;
+    &lt;div class=&quot;card-body&quot;&gt;&lt;p class=&quot;card-text text-center&quot;&gt; &lt;b&gt;Figur:&lt;/b&gt; &lt;i&gt;Spyder kan være utdatert. Foreløpig samma det.&lt;/i&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;sjekk-at-anaconda-installasjonen-fungerer-som-den-skal&quot;&gt;Sjekk at anaconda-installasjonen fungerer som den skal&lt;/h2&gt;
+&lt;p&gt;I det følgende vil &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;gt;&amp;gt;&lt;/code&gt; brukes som &lt;em&gt;python-prompt&lt;/em&gt;, altså at man gir en instruksjon til python-interpreteren på maskinen. Dette svarer til det stedet i anaconda der man kan skrive inn kommandoer direkte (se bilde).&lt;/p&gt;
+
+&lt;p&gt;Den første sjekken er &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;gt;&amp;gt; print(&quot;Hello, World!&quot;)&lt;/code&gt; (trykk enter for å kjøre kommandoen)&lt;/p&gt;
+
+&lt;div class=&quot;card mx-auto &quot;&gt;
+    &lt;img class=&quot;card-img-top&quot; src=&quot;/assets/img/spyder-window.png&quot; alt=&quot;Some figure&quot; /&gt;
+    &lt;div class=&quot;card-body&quot;&gt;&lt;p class=&quot;card-text text-center&quot;&gt; &lt;b&gt;Figur:&lt;/b&gt; &lt;i&gt;&lt;/i&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Dersom dette har gått bra printes `Hello, World!” i terminalen.&lt;/p&gt;
+
+&lt;h3 id=&quot;er-anaconda-installert-med-nødvendige-pakker&quot;&gt;Er anaconda installert med nødvendige pakker?&lt;/h3&gt;
+&lt;p&gt;Kopier innholdet i kodesnutten under, og legg det inn i et nytt script i anaconda. Kjør deretter scriptet.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pylab&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hello, World&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;t&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;linspace&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;A&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;plot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;xlabel&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;tid&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;ylabel&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;amplitude&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;show&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Dersom alt har gått bra skal du nå få opp en figure som viser $math$x^2$/math$-funksjonen. Dersom dette ikke fungerer bør du ha fått opp en feilmelding.&lt;/p&gt;
+
+&lt;h3 id=&quot;innstillinger-i-anaconda&quot;&gt;Innstillinger i Anaconda&lt;/h3&gt;
+&lt;p&gt;Det er mange innstillinger i Anaconda, og mange ting er smak og behag. For at alle skal ha samme oppsett når vi er på kurs, slik at vi unngår unødig feilsøking, har vi følgende forslag til innstillinger:&lt;/p&gt;
+
+&lt;p&gt;La anaconda slette variable mellom kjøringer. Dette hindrer masse uventet oppførsel.&lt;/p&gt;</content><author><name></name></author><summary type="html">Last ned anaconda distribusjonen fra Last ned anaconda fra Anaconda sitt nettsted. (-knapp øverst i høyre hjørne) Vanligvis vil nettstedet se hvilket operativsystem du har. Dersom den ikke gjør det velger du manuelt mellom MacOS, Windows eller Linux.</summary></entry></feed>
