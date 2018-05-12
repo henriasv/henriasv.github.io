@@ -15,7 +15,7 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2018-05-11T10:25:43+02:00" />
 <script type="application/ld+json">
-{"datePublished":"2018-05-11T10:25:43+02:00","url":"http://localhost:4000/anaconda/python/2018/05/11/anaconda-installasjon.html","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/anaconda/python/2018/05/11/anaconda-installasjon.html"},"description":"Last ned anaconda distribusjonen fra Last ned anaconda fra Anaconda sitt nettsted. (-knapp øverst i høyre hjørne) Vanligvis vil nettstedet se hvilket operativsystem du har. Dersom den ikke gjør det velger du manuelt mellom MacOS, Windows eller Linux.","@type":"BlogPosting","headline":"Installasjon av anaconda for MacOS","dateModified":"2018-05-11T10:25:43+02:00","@context":"http://schema.org"}</script>
+{"headline":"Installasjon av anaconda for MacOS","dateModified":"2018-05-11T10:25:43+02:00","datePublished":"2018-05-11T10:25:43+02:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/anaconda/python/2018/05/11/anaconda-installasjon.html"},"description":"Last ned anaconda distribusjonen fra Last ned anaconda fra Anaconda sitt nettsted. (-knapp øverst i høyre hjørne) Vanligvis vil nettstedet se hvilket operativsystem du har. Dersom den ikke gjør det velger du manuelt mellom MacOS, Windows eller Linux.","@type":"BlogPosting","url":"http://localhost:4000/anaconda/python/2018/05/11/anaconda-installasjon.html","@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Guider" /><script src="/assets/javascript/bootstrap/jquery.min.js"></script>
      <script src="/assets/javascript/bootstrap/bootstrap.bundle.min.js"></script>
@@ -52,7 +52,10 @@ Vanligvis vil nettstedet se hvilket operativsystem du har. Dersom den ikke gjør
 </div>
 
 <p>Velg Python 3.6-versjonen. Før nedlasting kan det hende du blir bedt om å registrere deg, da er det bare å klikke på 
-<button type="button" class="btn btn-primary active">No Thanks</button>.</p>
+<button type="button" class="btn btn-outline-secondary btn-sm">No Thanks</button>.</p>
+
+<h2 id="installer-anaconda">Installer anaconda</h2>
+<p>Knapper å trykke riktig på underveis. Dette er en vanlig installer, men den trenger noe tilgang til datamaskinen. Dersom installeren ber om administratorrettigheter: ta kontakt med lokal IT-support, som vanlig ved installasjon av programmer. Dersom du har nødvendige tilganger, skal du se følgende bilder underveis i prosessen:</p>
 
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
@@ -78,22 +81,22 @@ Vanligvis vil nettstedet se hvilket operativsystem du har. Dersom den ikke gjør
             
             <div class="carousel-item  active  ">
                 <img class="d-block w-100" src="
-/assets/img/installer1.png" />
+/assets/img/installer1_annotated.png" />
             </div>  
             
             <div class="carousel-item ">
                 <img class="d-block w-100" src=" 
-/assets/img/installer2.png" />
+/assets/img/installer2_annotated.png" />
             </div>  
             
             <div class="carousel-item ">
                 <img class="d-block w-100" src="
-/assets/img/installer3.png" />
+/assets/img/installer3_annotated.png" />
             </div>  
             
             <div class="carousel-item ">
                 <img class="d-block w-100" src="
-/assets/img/installer4.png" />
+/assets/img/installer4_annotated.png" />
             </div>  
             
     </div>
@@ -107,22 +110,19 @@ Vanligvis vil nettstedet se hvilket operativsystem du har. Dersom den ikke gjør
     </a>
 </div>
 
-<h2 id="installer-anaconda">Installer anaconda</h2>
-<p>Knapper å trykke riktig på underveis. Dette er en vanlig installer, men den trenger noe tilgang til datamaskinen. Dersom installeren ber om administratorrettigheter: ta kontakt med lokal IT-support, som vanlig ved installasjon av programmer. Dersom du har nødvendige tilganger, skal du se følgende bilder underveis i prosessen:</p>
-
 <h2 id="åpne-anaconda">Åpne anaconda</h2>
 <p>Når Anaconda en installert skal den finnes i Applications-mappen som <code class="highlighter-rouge">Anaconda-Navigator</code>. Åpne <code class="highlighter-rouge">Anaconda-Navigator</code> og velg <code class="highlighter-rouge">spyder</code> fra menyen. Det er flere av alternativene som kan være interessante å vurdere å bruke i undervisningen, men i kurset vil vi bruke <code class="highlighter-rouge">spyder</code>.</p>
 
 <div class="card mx-auto ">
-    <img class="card-img-top" src="/assets/img/anaconda-navigator.png" alt="Some figure" />
-    <div class="card-body"><p class="card-text text-center"> <b>Figur:</b> <i>Her velger man hvilken måte man vil bruke Anaconda.</i></p></div>
+    <img class="card-img-top" src="/assets/img/anaconda-navigator_annotated.png" alt="Some figure" />
+    <div class="card-body"><p class="card-text text-center"> <b>Figur:</b> <i>Her velger man hvilken måte man vil bruke Anaconda. Vi kommer til å bruke <i>Spyder</i></i></p></div>
 </div>
 
 <p>Når man åpner spyder for første gang kan det hende det dukker opp en beskjed om at spyder ikke er oppdatert. Denne kan ignoreres foreløpig.</p>
 
 <div class="card mx-auto w-75">
     <img class="card-img-top" src="/assets/img/incoming_connections.png" alt="Some figure" />
-    <div class="card-body"><p class="card-text text-center"> <b>Figur:</b> <i>Python vil ha kontakt med internett</i></p></div>
+    <div class="card-body"><p class="card-text text-center"> <b>Figur:</b> <i>Python vil ha lov til å bli kontaktet fra internett. For våre formål kan man fint velge å blokkere denne forespørselen.</i></p></div>
 </div>
 
 <div class="card mx-auto w-50">
@@ -137,27 +137,53 @@ Vanligvis vil nettstedet se hvilket operativsystem du har. Dersom den ikke gjør
 
 <div class="card mx-auto ">
     <img class="card-img-top" src="/assets/img/spyder-window.png" alt="Some figure" />
-    <div class="card-body"><p class="card-text text-center"> <b>Figur:</b> <i></i></p></div>
+    <div class="card-body"><p class="card-text text-center"> <b>Figur:</b> <i>Spyder. Til venstre er en kode-editor, nede til høre er det en IPython-konsoll</i></p></div>
 </div>
 
 <p>Dersom dette har gått bra printes <code class="highlighter-rouge">Hello, World!</code> i terminalen.</p>
 
 <h3 id="er-anaconda-installert-med-nødvendige-pakker">Er anaconda installert med nødvendige pakker?</h3>
-<p>Kopier innholdet i kodesnutten under, og legg det inn i et nytt script i anaconda. Kjør deretter scriptet.</p>
+<p>Kopier innholdet i kodesnutten under, og legg det inn i et nytt script i anaconda. Kjør deretter scriptet ved å trykke på den grønne play-knappen, eller med tastekombinasjonen ..</p>
 
 <figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="kn">from</span> <span class="nn">pylab</span> <span class="kn">import</span> <span class="o">*</span>
-<span class="k">print</span><span class="p">(</span><span class="s">"Hello, World"</span><span class="p">)</span>
 <span class="n">t</span> <span class="o">=</span> <span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">100</span><span class="p">)</span>
-<span class="n">A</span> <span class="o">=</span> <span class="n">x</span><span class="o">**</span><span class="mi">2</span>
+<span class="n">A</span> <span class="o">=</span> <span class="n">t</span><span class="o">**</span><span class="mi">2</span>
 <span class="n">plot</span><span class="p">(</span><span class="n">t</span><span class="p">,</span> <span class="n">A</span><span class="p">)</span>
 <span class="n">xlabel</span><span class="p">(</span><span class="s">"tid"</span><span class="p">)</span>
-<span class="n">ylabel</span><span class="p">(</span><span class="s">"amplitude"</span><span class="p">)</span>
-<span class="n">show</span><span class="p">()</span></code></pre></figure>
+<span class="n">ylabel</span><span class="p">(</span><span class="s">"amplitude"</span><span class="p">)</span></code></pre></figure>
+
+<p>Første gang en fil kjøres kommer følgende vindu opp:</p>
+
+<div class="card mx-auto w-50">
+    <img class="card-img-top" src="/assets/img/first_run.png" alt="Some figure" />
+    <div class="card-body"><p class="card-text text-center"> <b>Figur:</b> <i>Anbefalte innstillinger er slik som på dette bildet.</i></p></div>
+</div>
 
 <p>Dersom alt har gått bra skal du nå få opp en figure som viser $math$x^2$/math$-funksjonen. Dersom dette ikke fungerer bør du ha fått opp en feilmelding.</p>
 
+<p>Dersom man skulle få behov for å installere moduler som mangler, gjør man det i “Environments” (Men det er lite trolig at det blir nødvendig).</p>
+
+<div class="card mx-auto w-75">
+    <img class="card-img-top" src="/assets/img/install_packages.png" alt="Some figure" />
+    <div class="card-body"><p class="card-text text-center"> <b>Figur:</b> <i>Pakke-installasjon. Bruk søkefeltet oppe til høyre for å søke opp pakker.</i></p></div>
+</div>
+
 <h3 id="innstillinger-i-anaconda">Innstillinger i Anaconda</h3>
 <p>Det er mange innstillinger i Anaconda, og mange ting er smak og behag. For at alle skal ha samme oppsett når vi er på kurs, slik at vi unngår unødig feilsøking, har vi følgende forslag til innstillinger:</p>
+
+<p>Sett “Remove all variables before execution”, fordi det sørger for at samme script git samme resultat hver gang. Om man velger å beholde variable kan man i enkelte tilfeller få svært uventet oppførsel. For at dette skal bli standard oppfølsel må man også ordne dett under “Preferences”.</p>
+
+<div class="card mx-auto w-75">
+    <img class="card-img-top" src="/assets/img/run_settings.png" alt="Some figure" />
+    <div class="card-body"><p class="card-text text-center"> <b>Figur:</b> <i>Kjøreinnstillinger</i></p></div>
+</div>
+
+<p>Man kan velge om man vil at figurer skal dukke opp <em>inline</em>, altså sammen med programoutput, eller om man vil at de skal dukke opp i egne vindier. I det siste tilfellet har man anledning til å interagere med figurene (zoom, pan etc.). Dette er en instilling man kan variere etter behov. Noen ganger lager man mange figurer som er ferdig laget – da er <em>inline</em> mest effektivt. Andre ganger skal man studere figurer mer nøye, og trenger å interagere. Alternativet man bruker da er (selv om navnet ikke avslører oppførselen) <em>Automatic</em>.</p>
+
+<div class="card mx-auto w-75">
+    <img class="card-img-top" src="/assets/img/graphics_setting.png" alt="Some figure" />
+    <div class="card-body"><p class="card-text text-center"> <b>Figur:</b> <i>Innstillinger for IPython-konsollen</i></p></div>
+</div>
 
 <p>La anaconda slette variable mellom kjøringer. Dette hindrer masse uventet oppførsel.</p>
 
