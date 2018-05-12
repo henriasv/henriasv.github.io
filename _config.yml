@@ -22,11 +22,9 @@ email: ""
 
 repository: 
 
-theme: minima
 # Build settings
 plugins:
   - jekyll-feed
-  - jekyll-material-theme
 
 # A list of the pages to display in the navigation bar
 header_pages:
@@ -39,5 +37,3 @@ exclude:
   - Gemfile.lock
   - node_modules
   - update_boostrap.sh
-
-theme: jekyll-theme-cayman

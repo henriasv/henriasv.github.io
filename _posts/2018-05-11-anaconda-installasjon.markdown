@@ -44,7 +44,7 @@ Den første sjekken er `>> print("Hello, World!")` (trykk enter for å kjøre ko
 
 {% include figure.html file="/assets/img/spyder-window.png" %}
 
-Dersom dette har gått bra printes `Hello, World!" i terminalen. 
+Dersom dette har gått bra printes `Hello, World!` i terminalen. 
 
 
 ### Er anaconda installert med nødvendige pakker?
