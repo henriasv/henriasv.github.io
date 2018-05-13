@@ -1,15 +1,15 @@
 ---
 layout: post
-title:  "Installasjon av anaconda for MacOS"
+title:  "Installasjon av Anaconda for MacOS"
 date:   2018-05-11 10:25:43 +0200
 categories: anaconda python
 ---
 
-## Last ned anaconda distribusjonen fra 
-Last ned anaconda fra [Anaconda][anaconda] sitt nettsted. (![Download]({{ "/assets/img/download_button.png" | absolute_url }})-knapp øverst i høyre hjørne)
+## Last ned Anaconda 
+Last ned Anaconda fra [Anaconda][anaconda] sitt nettsted. ![Download]({{ "/assets/img/download_button.png" | absolute_url }})-knapp finnes øverst i høyre hjørne. Etter å ha klikket på denne lander man på en side med flere nedlastingsvalg. 
 Vanligvis vil nettstedet se hvilket operativsystem du har. Dersom den ikke gjør det velger du manuelt mellom MacOS, Windows eller Linux. 
 
-{% include figure.html file="/assets/img/download_site_small.jpg" caption="Nedlastingssiden til Anaconda" %}
+{% include figure.html file="/assets/img/download_site_small.jpg" caption="Nedlastingssiden til Anaconda." %}
 
 Velg Python 3.6-versjonen. Før nedlasting kan det hende du blir bedt om å registrere deg, da er det bare å klikke på 
 {% include button.html button_name="No Thanks" button_class="btn-outline-secondary btn-sm" %}. 
@@ -26,8 +26,10 @@ images="
 /assets/img/installer4_annotated.png" 
 %}
 
-## Åpne anaconda
-Når Anaconda en installert skal den finnes i Applications-mappen som `Anaconda-Navigator`. Åpne `Anaconda-Navigator` og velg `spyder` fra menyen. Det er flere av alternativene som kan være interessante å vurdere å bruke i undervisningen, men i kurset vil vi bruke `spyder`. 
+## Åpne Spyder
+Anaconda er en stor pakke som inneholder mye forskjellig. Det viktigste den inneholder er et svært godt utvalg av Python-pakker. Anaconda tilbyr flere forskjellige innganger til å bruke disse pakkene. Vi skal bruke *Spyder*.
+
+Vi skal åpne `Spyder` gjennom `Anaconda-Navigator`. Når vi åpner Anaconda-Navigator (på samme måte som ethert annet program på datamaskinen) kan vi velge mellom flere alternativer under `Home`: jupyterlab, notebook, qtconsole, spyder, glueviz etc. Vi skal bruke `Spyder`, og klikker derfor på {% include button.html button_name="Launch" button_class="btn-outline-primary btn-small" %}-knappen i boksen til nettop `Spyder`. 
 
 {% include figure.html file="/assets/img/anaconda-navigator_annotated.png" caption="Her velger man hvilken måte man vil bruke Anaconda. Vi kommer til å bruke <i>Spyder</i>" %}
 
@@ -64,7 +66,7 @@ Første gang en fil kjøres kommer følgende vindu opp:
 {% include figure.html width="w-50" file="/assets/img/first_run.png" caption="Anbefalte innstillinger er slik som på dette bildet." %}
 
 
-Dersom alt har gått bra skal du nå få opp en figure som viser $math$x^2$/math$-funksjonen. Dersom dette ikke fungerer bør du ha fått opp en feilmelding.  
+Dersom alt har gått bra skal du nå få opp en figur som viser $$A = t^2$$. Dersom dette ikke fungerer bør du ha fått opp en feilmelding.  
 
 Dersom man skulle få behov for å installere moduler som mangler, gjør man det i "Environments" (Men det er lite trolig at det blir nødvendig). 
 
@@ -81,8 +83,9 @@ Man kan velge om man vil at figurer skal dukke opp *inline*, altså sammen med p
 
 {% include figure.html width="w-75" file="/assets/img/graphics_setting.png" caption="Innstillinger for IPython-konsollen" %}
 
-La anaconda slette variable mellom kjøringer. Dette hindrer masse uventet oppførsel.
+Etter å ha valgt *Automatic* kan du sjekke at alt er i orden. Figuren skal nå komme opp i et eget vind. 
 
-
+### Det var det hele
+Vi sees på kurs. 
 
 [anaconda]: https://www.anaconda.com/

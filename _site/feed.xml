@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-05-12T22:22:29+02:00</updated><id>http://localhost:4000/</id><title type="html">Guider</title><entry><title type="html">Installasjon av anaconda for MacOS</title><link href="http://localhost:4000/anaconda/python/2018/05/11/anaconda-installasjon.html" rel="alternate" type="text/html" title="Installasjon av anaconda for MacOS" /><published>2018-05-11T10:25:43+02:00</published><updated>2018-05-11T10:25:43+02:00</updated><id>http://localhost:4000/anaconda/python/2018/05/11/anaconda-installasjon</id><content type="html" xml:base="http://localhost:4000/anaconda/python/2018/05/11/anaconda-installasjon.html">&lt;h2 id=&quot;last-ned-anaconda-distribusjonen-fra&quot;&gt;Last ned anaconda distribusjonen fra&lt;/h2&gt;
-&lt;p&gt;Last ned anaconda fra &lt;a href=&quot;https://www.anaconda.com/&quot;&gt;Anaconda&lt;/a&gt; sitt nettsted. (&lt;img src=&quot;http://localhost:4000/assets/img/download_button.png&quot; alt=&quot;Download&quot; /&gt;-knapp øverst i høyre hjørne)
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-05-12T22:36:13+02:00</updated><id>http://localhost:4000/</id><title type="html">Guider</title><entry><title type="html">Installasjon av Anaconda for MacOS</title><link href="http://localhost:4000/anaconda/python/2018/05/11/anaconda-installasjon.html" rel="alternate" type="text/html" title="Installasjon av Anaconda for MacOS" /><published>2018-05-11T10:25:43+02:00</published><updated>2018-05-11T10:25:43+02:00</updated><id>http://localhost:4000/anaconda/python/2018/05/11/anaconda-installasjon</id><content type="html" xml:base="http://localhost:4000/anaconda/python/2018/05/11/anaconda-installasjon.html">&lt;h2 id=&quot;last-ned-anaconda&quot;&gt;Last ned Anaconda&lt;/h2&gt;
+&lt;p&gt;Last ned Anaconda fra &lt;a href=&quot;https://www.anaconda.com/&quot;&gt;Anaconda&lt;/a&gt; sitt nettsted. &lt;img src=&quot;http://localhost:4000/assets/img/download_button.png&quot; alt=&quot;Download&quot; /&gt;-knapp finnes øverst i høyre hjørne. Etter å ha klikket på denne lander man på en side med flere nedlastingsvalg. 
 Vanligvis vil nettstedet se hvilket operativsystem du har. Dersom den ikke gjør det velger du manuelt mellom MacOS, Windows eller Linux.&lt;/p&gt;
 
 &lt;div class=&quot;card mx-auto &quot;&gt;
     &lt;img class=&quot;card-img-top&quot; src=&quot;/assets/img/download_site_small.jpg&quot; alt=&quot;Some figure&quot; /&gt;
-    &lt;div class=&quot;card-body&quot;&gt;&lt;p class=&quot;card-text text-center&quot;&gt; &lt;b&gt;Figur:&lt;/b&gt; &lt;i&gt;Nedlastingssiden til Anaconda&lt;/i&gt;&lt;/p&gt;&lt;/div&gt;
+    &lt;div class=&quot;card-body&quot;&gt;&lt;p class=&quot;card-text text-center&quot;&gt; &lt;b&gt;Figur:&lt;/b&gt; &lt;i&gt;Nedlastingssiden til Anaconda.&lt;/i&gt;&lt;/p&gt;&lt;/div&gt;
 &lt;/div&gt;
 
 &lt;p&gt;Velg Python 3.6-versjonen. Før nedlasting kan det hende du blir bedt om å registrere deg, da er det bare å klikke på 
@@ -66,8 +66,10 @@ Vanligvis vil nettstedet se hvilket operativsystem du har. Dersom den ikke gjør
     &lt;/a&gt;
 &lt;/div&gt;
 
-&lt;h2 id=&quot;åpne-anaconda&quot;&gt;Åpne anaconda&lt;/h2&gt;
-&lt;p&gt;Når Anaconda en installert skal den finnes i Applications-mappen som &lt;code class=&quot;highlighter-rouge&quot;&gt;Anaconda-Navigator&lt;/code&gt;. Åpne &lt;code class=&quot;highlighter-rouge&quot;&gt;Anaconda-Navigator&lt;/code&gt; og velg &lt;code class=&quot;highlighter-rouge&quot;&gt;spyder&lt;/code&gt; fra menyen. Det er flere av alternativene som kan være interessante å vurdere å bruke i undervisningen, men i kurset vil vi bruke &lt;code class=&quot;highlighter-rouge&quot;&gt;spyder&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;åpne-spyder&quot;&gt;Åpne Spyder&lt;/h2&gt;
+&lt;p&gt;Anaconda er en stor pakke som inneholder mye forskjellig. Det viktigste den inneholder er et svært godt utvalg av Python-pakker. Anaconda tilbyr flere forskjellige innganger til å bruke disse pakkene. Vi skal bruke &lt;em&gt;Spyder&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Vi skal åpne &lt;code class=&quot;highlighter-rouge&quot;&gt;Spyder&lt;/code&gt; gjennom &lt;code class=&quot;highlighter-rouge&quot;&gt;Anaconda-Navigator&lt;/code&gt;. Når vi åpner Anaconda-Navigator (på samme måte som ethert annet program på datamaskinen) kan vi velge mellom flere alternativer under &lt;code class=&quot;highlighter-rouge&quot;&gt;Home&lt;/code&gt;: jupyterlab, notebook, qtconsole, spyder, glueviz etc. Vi skal bruke &lt;code class=&quot;highlighter-rouge&quot;&gt;Spyder&lt;/code&gt;, og klikker derfor på &lt;button type=&quot;button&quot; class=&quot;btn btn-outline-primary btn-small&quot;&gt;Launch&lt;/button&gt;-knappen i boksen til nettop &lt;code class=&quot;highlighter-rouge&quot;&gt;Spyder&lt;/code&gt;.&lt;/p&gt;
 
 &lt;div class=&quot;card mx-auto &quot;&gt;
     &lt;img class=&quot;card-img-top&quot; src=&quot;/assets/img/anaconda-navigator_annotated.png&quot; alt=&quot;Some figure&quot; /&gt;
@@ -115,7 +117,7 @@ Vanligvis vil nettstedet se hvilket operativsystem du har. Dersom den ikke gjør
     &lt;div class=&quot;card-body&quot;&gt;&lt;p class=&quot;card-text text-center&quot;&gt; &lt;b&gt;Figur:&lt;/b&gt; &lt;i&gt;Anbefalte innstillinger er slik som på dette bildet.&lt;/i&gt;&lt;/p&gt;&lt;/div&gt;
 &lt;/div&gt;
 
-&lt;p&gt;Dersom alt har gått bra skal du nå få opp en figure som viser $math$x^2$/math$-funksjonen. Dersom dette ikke fungerer bør du ha fått opp en feilmelding.&lt;/p&gt;
+&lt;p&gt;Dersom alt har gått bra skal du nå få opp en figur som viser &lt;script type=&quot;math/tex&quot;&gt;A = t^2&lt;/script&gt;. Dersom dette ikke fungerer bør du ha fått opp en feilmelding.&lt;/p&gt;
 
 &lt;p&gt;Dersom man skulle få behov for å installere moduler som mangler, gjør man det i “Environments” (Men det er lite trolig at det blir nødvendig).&lt;/p&gt;
 
@@ -141,4 +143,7 @@ Vanligvis vil nettstedet se hvilket operativsystem du har. Dersom den ikke gjør
     &lt;div class=&quot;card-body&quot;&gt;&lt;p class=&quot;card-text text-center&quot;&gt; &lt;b&gt;Figur:&lt;/b&gt; &lt;i&gt;Innstillinger for IPython-konsollen&lt;/i&gt;&lt;/p&gt;&lt;/div&gt;
 &lt;/div&gt;
 
-&lt;p&gt;La anaconda slette variable mellom kjøringer. Dette hindrer masse uventet oppførsel.&lt;/p&gt;</content><author><name></name></author><summary type="html">Last ned anaconda distribusjonen fra Last ned anaconda fra Anaconda sitt nettsted. (-knapp øverst i høyre hjørne) Vanligvis vil nettstedet se hvilket operativsystem du har. Dersom den ikke gjør det velger du manuelt mellom MacOS, Windows eller Linux.</summary></entry></feed>
+&lt;p&gt;Etter å ha valgt &lt;em&gt;Automatic&lt;/em&gt; kan du sjekke at alt er i orden. Figuren skal nå komme opp i et eget vind.&lt;/p&gt;
+
+&lt;h3 id=&quot;det-var-det-hele&quot;&gt;Det var det hele&lt;/h3&gt;
+&lt;p&gt;Vi sees på kurs.&lt;/p&gt;</content><author><name></name></author><summary type="html">Last ned Anaconda Last ned Anaconda fra Anaconda sitt nettsted. -knapp finnes øverst i høyre hjørne. Etter å ha klikket på denne lander man på en side med flere nedlastingsvalg. Vanligvis vil nettstedet se hvilket operativsystem du har. Dersom den ikke gjør det velger du manuelt mellom MacOS, Windows eller Linux.</summary></entry></feed>
