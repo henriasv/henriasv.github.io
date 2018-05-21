@@ -25,6 +25,7 @@ repository:
 # Build settings
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 # A list of the pages to display in the navigation bar
 header_pages:
