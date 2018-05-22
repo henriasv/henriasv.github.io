@@ -78,7 +78,7 @@ ylabel("amplitude")
 
 Første gang en fil kjøres kommer følgende vindu opp: 
 
-{% include figure.html width="w-50" file="/assets/img/windows/spyder_3.png" caption="Anbefalte innstillinger er slik som på dette bildet." %}
+{% include figure.html width="w-100" file="/assets/img/windows/spyder_3.png" caption="Anbefalte innstillinger er slik som på dette bildet." %}
 
 
 Dersom alt har gått bra skal du nå få opp en figur som viser $$A = t^2$$. Dersom dette ikke fungerer bør du ha fått opp en feilmelding.  
