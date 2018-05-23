@@ -6,7 +6,7 @@ categories: anaconda python
 ---
 
 ## Last ned Anaconda 
-Last ned Anaconda fra [Anaconda][anaconda] sitt nettsted. ![Download]({{ "/assets/img/download_button.png" | absolute_url }})-knapp finnes øverst i høyre hjørne. Etter å ha klikket på denne lander man på en side med flere nedlastingsvalg. 
+Last ned Anaconda fra [Anaconda][anaconda]{:target="_blank"} sitt nettsted. ![Download]({{ "/assets/img/download_button.png" | absolute_url }})-knapp finnes øverst i høyre hjørne. Etter å ha klikket på denne lander man på en side med flere nedlastingsvalg. 
 Vanligvis vil nettstedet se hvilket operativsystem du har. Dersom den ikke gjør det velger du manuelt mellom MacOS, Windows eller Linux. 
 
 Under ser du nettsidene du vil møte under nedlastingen. (Klikk på pilene for å navigere i bildeserien)
@@ -18,7 +18,7 @@ images="
 /assets/img/windows/anaconda_download_2.png
 " %}
 
-Velg Python 3.6-versjonen. Før nedlasting kan det hende du blir bedt om å registrere deg, da er det bare å klikke på 
+Velg Python 3.6-versjonen og klikk på den grønne download-knappen (dette gir deg 64-bit versjonen, som så å si alltid er riktig). Før nedlasting kan det hende du blir bedt om å registrere deg, da er det bare å klikke på 
 {% include button.html button_name="No Thanks" button_class="btn-outline-secondary btn-sm" %}. 
 
 ## Installer anaconda
@@ -38,8 +38,6 @@ images="
 /assets/img/windows/installation_9.png" 
 %}
 
-Selve installasjonssteget der du ser en progressbar tar noen minutter, for eksempel 10. 
-
 ## Åpne Spyder
 Anaconda er en stor pakke som inneholder mye forskjellig. Det viktigste den inneholder er et svært godt utvalg av Python-pakker (ofte kalt bibioteker). Anaconda tilbyr flere forskjellige innganger til å bruke disse pakkene. Vi skal bruke *Spyder*.
 
@@ -56,13 +54,13 @@ Over vises hvordan du åpner Anaconda og deretter åpner *Spyder*.
 Når du åpner spyder for første gang kan det hende det dukker opp en beskjed om at spyder ikke er oppdatert. Denne kan ignoreres foreløpig, men det er også trygt oppdatere Spyder. 
 
 ## Sjekk at anaconda-installasjonen fungerer som den skal 
-Det er vanlig å bruke symbolet `>>` om *prompt*, *kommandolinje*, *terminal*, *konsoll* eller liknende. Kjært barn, mange navn. I vår sammenheng vil det være "det stedet der du gir python-kommandoer", altså at du gir en instruksjon til python-interpreteren på maskinen. Dette svarer til det stedet i Anaconda der du kan skrive inn kommandoer direkte (se bilde). 
+Det er vanlig å bruke symbolet `>>` om *konsoll*, dvs. *det stedet der du gir python-kommandoer*, altså at du gir en instruksjon til python-interpreteren på maskinen. Dette svarer til det stedet i Anaconda der du kan skrive inn kommandoer direkte (se bilde). I Anaconda sin konsoll vil det vi nettopp har kalt `>>` se ut som `ln [1]:`, men der tallet inne i klammene vil variere etter hvor mange kommandoer du har kjørt side du startet Spyder. 
 
 Den første sjekken er `>> print("Hello, World!")` (trykk enter for å kjøre kommandoen). 
 
 {% include figure.html file="/assets/img/windows/spyder_1.png" caption="Spyder. Til venstre er en kode-editor, nede til høre er det en IPython-konsoll. I Spyder skriver du kommandoer bak <code class='highlighter rouge'>ln [1]:</code>, eller kjører en hel fil, som egentlig tilsvarer å sende inn filen linje for linje til IPython-konsollen." %}
 
-Dersom dette har gått bra printes `Hello, World!` i terminalen. 
+Dersom dette har gått bra printes `Hello, World!` i konsollen. 
 
 
 ### Er anaconda installert med nødvendige pakker?
