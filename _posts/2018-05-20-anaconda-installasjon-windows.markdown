@@ -41,7 +41,7 @@ images="
 Selve installasjonssteget der du ser en progressbar tar noen minutter, for eksempel 10. 
 
 ## Åpne Spyder
-Anaconda er en stor pakke som inneholder mye forskjellig. Det viktigste den inneholder er et svært godt utvalg av Python-pakker. Anaconda tilbyr flere forskjellige innganger til å bruke disse pakkene. Vi skal bruke *Spyder*.
+Anaconda er en stor pakke som inneholder mye forskjellig. Det viktigste den inneholder er et svært godt utvalg av Python-pakker (ofte kalt bibioteker). Anaconda tilbyr flere forskjellige innganger til å bruke disse pakkene. Vi skal bruke *Spyder*.
 
 Vi skal åpne Spyder gjennom *Anaconda-Navigator*. Når vi åpner Anaconda-Navigator (på samme måte som ethert annet program på datamaskinen) kan vi velge mellom flere alternativer under *Home*: jupyterlab, notebook, qtconsole, spyder, glueviz etc. Vi skal som nevnt bruke Spyder, og klikker derfor på {% include button.html button_name="Launch" button_class="btn-outline-primary btn-small" %}-knappen i boksen til nettop `Spyder`. 
 
@@ -66,7 +66,7 @@ Dersom dette har gått bra printes `Hello, World!` i terminalen.
 
 
 ### Er anaconda installert med nødvendige pakker?
-Kopier innholdet i kodesnutten under, og legg det inn i et nytt script i Anaconda (i venstre del av vinduet). Kjør deretter scriptet ved å trykke på den grønne play-knappen.
+Kopier innholdet i kodesnutten under, og legg det inn i et nytt script i Anaconda (i venstre del av vinduet). Kjør deretter scriptet ved å trykke på den grønne play-knappen. Det vi ønsker å sjekke her er at du får importert bibliotekene som ligger i `pylab`, og gjøre et par tester på at noe av det inni bibliotekene fungerer. 
 
 {% highlight python %}
 from pylab import *
