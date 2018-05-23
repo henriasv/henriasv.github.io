@@ -43,7 +43,7 @@ Selve installasjonssteget der du ser en progressbar tar noen minutter, for eksem
 ## Åpne Spyder
 Anaconda er en stor pakke som inneholder mye forskjellig. Det viktigste den inneholder er et svært godt utvalg av Python-pakker (ofte kalt bibioteker). Anaconda tilbyr flere forskjellige innganger til å bruke disse pakkene. Vi skal bruke *Spyder*.
 
-Vi skal åpne Spyder gjennom *Anaconda-Navigator*. Når vi åpner Anaconda-Navigator (på samme måte som ethert annet program på datamaskinen) kan vi velge mellom flere alternativer under *Home*: jupyterlab, notebook, qtconsole, spyder, glueviz etc. Vi skal som nevnt bruke Spyder, og klikker derfor på {% include button.html button_name="Launch" button_class="btn-outline-primary btn-small" %}-knappen i boksen til nettop `Spyder`. 
+Vi skal åpne Spyder gjennom *Anaconda-Navigator*. Når vi åpner Anaconda-Navigator (på samme måte som ethert annet program på datamaskinen) kan vi velge mellom flere alternativer under *Home*: jupyterlab, notebook, qtconsole, spyder, glueviz etc. Vi skal som nevnt bruke Spyder, og klikker derfor på {% include button.html button_name="Launch" button_class="btn-outline-primary btn-small" %}-knappen i boksen til nettopp `Spyder`. 
 
 {% include carousel.html 
 id="anacondaCarousel"
